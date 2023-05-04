@@ -30,7 +30,7 @@ config.read('config.ini')
 # Build a dictionary of key-value pairs from the configuration file
 key_value_pairs = {}
 for key, value in config['Keys'].items():
-    key_value_pairs[pygame.key.key_code(key)] = pygame.image.load('images/' + value)
+    key_value_pairs[pygame.__dict__['K_' + key]] = pygame.image.load('images/' + value)
 
 last_blink = 0
 # in milliseconds
@@ -47,7 +47,7 @@ while running:
         if event.type == pygame.QUIT:
             running = False
         elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.key.key_code("escape"):
+            if event.key == pygame.K_ESCAPE:
                 running = False
             # Change the background image when a key is pressed
             if event.key in key_value_pairs:
