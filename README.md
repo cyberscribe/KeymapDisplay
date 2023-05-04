@@ -11,7 +11,7 @@ Download or clone the KeymapDisplay folder and run:
 # Configuration
 The mappings of keys to images is configurable using the `config.ini` file. Images can be placed in the `images/` folder.
 
-# Use on a Raspberry Pi as a dedicated appliance
+# Use on a Raspberry Pi as a Dedicated Appliance
 The motivating use case for this programme was to connect a Raspberry Pi to a backstage monitor and, via a configurable keypad (or key encoder with wired buttons) connected to the Pi via long USB cable, be able to display images with different messages on the backstage monitor from the control room.
 
 In order to accomplish this:
