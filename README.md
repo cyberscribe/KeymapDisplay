@@ -8,6 +8,8 @@ This programme is designed to be run on any device connected to a monitor to pro
 Download or clone the KeymapDisplay folder and run:
 `python display.py`
 
+[![Installation Video](https://i.ytimg.com/vi/DWCE5fD66hU/hqdefault.jpg)](https://www.youtube.com/watch?v=DWCE5fD66hU)
+
 # Configuration
 The mappings of keys to images is configurable using the `config.ini` file. Images can be placed in the `images/` folder.
 
