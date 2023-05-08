@@ -53,6 +53,7 @@ while running:
             if event.key in key_value_pairs:
                 background = key_value_pairs[event.key]
 
+    background = pygame.transform.scale(background, screen.get_size())
     # Draw the background image
     screen.blit(background, (0, 0))
 
